@@ -1,0 +1,4 @@
+[17-Feb-2021 20:42:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosEmpresa/crear-perfil-empresa.php on line 32
+[17-Feb-2021 20:42:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosEmpresa/actualizar-perfil-empresa-activo.php on line 36
+[25-Mar-2021 05:59:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosEmpresa/crear-perfil-empresa.php on line 45
+[25-Mar-2021 05:59:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosEmpresa/crear-perfil-empresa.php on line 68

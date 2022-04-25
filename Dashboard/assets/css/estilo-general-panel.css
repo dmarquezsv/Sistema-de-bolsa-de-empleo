@@ -1,0 +1,175 @@
+@font-face {
+ font-family: "Azonix";
+ src: url("../../../assets/recusosMundoEmpleo/Azonix.otf");
+}
+
+#titulos{
+ font-family: "Azonix";
+}
+
+#page-container.page-header-glass.page-header-fixed.page-header-scroll.page-header-inverse #page-header {
+
+
+}
+
+#negrita{
+   color:#0B3486;
+}
+
+
+
+p{
+  font-family: Arial, sans-serif; font-size: 14px; line-height: 24px;
+}
+
+body{
+ font-family: Arial, sans-serif; font-size: 14px;  
+}
+
+.barraMenu{
+  font-family: Arial, sans-serif;  
+}
+
+label{
+  font-family: Helvetica, sans-serif;  font-weight: normal;
+}
+
+.indicaciones{
+  border-left: solid 5px; border-color: #FCC201;
+  color: black;
+}
+
+
+input{
+  font-family: Arial, sans-serif;  
+}
+
+h2{
+  font-family: Arial, sans-serif;
+}
+
+h3{
+ font-family: Arial, sans-serif;   
+}
+
+h6{
+
+  font-family: Arial, sans-serif;
+}
+
+a{
+ font-family: Arial, sans-serif;  
+}
+
+button{
+  font-family: Arial, sans-serif;  
+}
+
+.btn-alt-primary {
+ color: #0B3486;
+ background: #FCC201;
+ border: 1px solid transparent;
+ font-weight: bold;
+ font-family: Arial;
+ border-radius: 10px;
+
+
+
+}
+
+.btn-alt-primary:hover{
+  color: #fff;
+  border: 1px solid white;
+  background: #0B3486;
+  font-weight: bold;
+}
+
+.btn-alt-primary.disabled, .btn-alt-primary:disabled {
+   background: #FCC201;
+   color: #0B3486;
+}
+
+.bg-gd-primary {
+  background: #0B3486;
+  background: linear-gradient(160deg,#0B3486 0,#0B3486 100%) !important;
+  font-weight: bold;
+
+}
+
+td{
+  font-family: Arial, sans-serif; 
+}
+
+#page-container.page-header-glass.page-header-fixed.page-header-scroll.page-header-inverse #page-header {
+  background-color: #FCC201;
+  box-shadow: none;
+}
+
+.block-title{
+  font-weight: bold;
+  font-family: Arial, sans-serif;  
+}
+
+
+.bg-primary-dark {
+  background-color: #FCC201 !important;
+  font-weight: bold;
+}
+
+.page-header-inverse #page-header .btn-dual-secondary, .sidebar-inverse #sidebar .btn-dual-secondary {
+  color: #fff;
+  background: black;
+}
+
+#page-container.sidebar-inverse #sidebar .content-side-user{
+  background: #0B3486;
+}
+
+#page-container.sidebar-inverse #sidebar{
+ background: #0B3486;
+}
+
+
+.bg-gd-dusk {
+  background: #d262e3;
+  background: linear-gradient(135deg,#0B3486,#39899bbf 100%) !important;
+}
+
+
+
+
+.cuadros{
+  background: #d262e3;
+  background: linear-gradient(135deg,#0B3486,#39899bbf 100%) !important;
+}
+
+.cuadros:hover{
+ background:#FCC201;
+ background: linear-gradient(135deg,#FCC201,#FCC201 100%) !important;
+
+}
+
+.ribbon-crystal.ribbon-bookmark.ribbon-left .ribbon-box::before {
+  border-color: #0B3486;
+  border-right-color: rgba(138, 59, 59, 0.35);
+  border-right-color: transparent;
+}
+
+.ribbon-crystal .ribbon-box{
+  background-color:#0B3486;
+}
+
+#iconosColor{
+  color: #ffca28;
+}
+
+#botones{
+  background: #FCC201;
+}
+
+
+
+.page-header-inverse #page-header .btn-dual-secondary, .sidebar-inverse #sidebar .btn-dual-secondary {
+  color: #fff;
+  background: black;
+}

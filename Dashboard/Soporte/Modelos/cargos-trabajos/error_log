@@ -1,0 +1,1 @@
+[24-Mar-2021 19:13:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/Modelos/cargos-trabajos/mostrar-cargos-trabajos.php on line 11

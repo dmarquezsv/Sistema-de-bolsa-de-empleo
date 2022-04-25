@@ -1,0 +1,5 @@
+[23-Mar-2021 21:29:39 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/agregar-candidatos.php on line 28
+[23-Mar-2021 21:53:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/agregar-empresa.php on line 28
+[23-Mar-2021 22:47:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/agregar-candidatos.php on line 28
+[24-Mar-2021 18:58:37 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/agregar-empresa.php on line 28
+[24-Mar-2021 18:59:32 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/agregar-empresa.php on line 28

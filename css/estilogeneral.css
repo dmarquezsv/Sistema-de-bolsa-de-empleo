@@ -1,0 +1,40 @@
+@font-face {
+		font-family: "Azonix";
+		src: url("assets/recusosMundoEmpleo/Azonix.otf");
+	}
+
+	#titulos{ font-family: "Azonix";}
+	#titulos2{ font-family: "Azonix"; color: #0B3486;}
+	#titulos2:hover{color: #FCC201;}
+	p{
+		font-family: Arial, sans-serif; font-size: 16px; line-height: 24px;
+	}
+
+	h1{
+		font-family: "Azonix"
+	}
+
+	h2{
+		font-family: Arial, sans-serif;
+	}
+
+	h3{
+		font-family: Arial, sans-serif;   
+	}
+
+	h6{
+
+		font-family: Arial, sans-serif;
+	}
+
+	a{
+		font-family: Arial, sans-serif;  
+	}
+
+	button{
+		font-family: Arial, sans-serif;  
+	}
+
+	.alert{
+		font-family: Arial, sans-serif;  
+	}

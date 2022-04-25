@@ -1,0 +1,1 @@
+[24-Mar-2021 01:00:07 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/Modelos/ModelosPerfil/actualizar_cuenta.php on line 17

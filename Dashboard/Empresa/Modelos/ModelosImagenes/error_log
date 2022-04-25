@@ -1,0 +1,6 @@
+[17-Feb-2021 20:42:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenEmpresa1vez.php on line 70
+[23-Mar-2021 21:57:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenEmpresa.php on line 70
+[23-Mar-2021 21:57:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenEmpresa.php on line 70
+[23-Mar-2021 21:57:29 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenEmpresa.php on line 70
+[25-Mar-2021 06:00:22 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenEmpresa1vez.php on line 70
+[25-Mar-2021 06:09:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosImagenes/CambiarImagenPerfil.php on line 68

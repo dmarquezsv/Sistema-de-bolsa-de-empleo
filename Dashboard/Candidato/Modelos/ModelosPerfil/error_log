@@ -1,0 +1,68 @@
+[08-Oct-2020 03:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 23
+[08-Oct-2020 03:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 23
+[08-Oct-2020 03:29:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 21
+[08-Oct-2020 03:33:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 17
+[08-Oct-2020 03:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 17
+[08-Oct-2020 03:38:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 17
+[08-Oct-2020 03:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 20
+[08-Oct-2020 03:44:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 20
+[08-Oct-2020 03:44:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method funcionesApp::test_input2() in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 20
+[08-Oct-2020 03:47:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 46
+[08-Oct-2020 03:50:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 46
+[16-Feb-2021 22:14:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil2.php on line 56
+[16-Feb-2021 22:15:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/actualizar_cuenta.php on line 17
+[17-Feb-2021 18:32:29 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 51
+[17-Feb-2021 18:33:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 56
+[17-Feb-2021 18:34:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 56
+[17-Feb-2021 18:42:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[17-Feb-2021 19:06:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 51
+[17-Feb-2021 19:23:59 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 56
+[17-Feb-2021 19:39:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 51
+[17-Feb-2021 19:56:13 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 51
+[17-Feb-2021 20:04:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[23-Mar-2021 20:45:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[23-Mar-2021 20:49:26 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 58
+[23-Mar-2021 20:49:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil.php on line 58
+[23-Mar-2021 21:02:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[23-Mar-2021 21:03:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/actualizar_cuenta.php on line 17
+[23-Mar-2021 21:03:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/actualizar_cuenta.php on line 17
+[23-Mar-2021 21:09:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil2.php on line 56
+[23-Mar-2021 21:10:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil2.php on line 56
+[23-Mar-2021 21:10:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/ActualizarPerfil2.php on line 56
+[23-Mar-2021 21:20:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[23-Mar-2021 21:25:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[23-Mar-2021 21:34:09 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[23-Mar-2021 21:37:19 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[23-Mar-2021 21:48:25 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[23-Mar-2021 21:51:30 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[23-Mar-2021 22:51:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[23-Mar-2021 22:58:55 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12
+[24-Mar-2021 17:50:01 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/NuevoPerfil.php on line 53
+[24-Mar-2021 18:06:32 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Candidato/Modelos/ModelosPerfil/Cambiar_estado_perfil.php on line 12

@@ -1,0 +1,4 @@
+[23-Mar-2021 22:30:40 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosReportes/reportes-generales.php on line 27
+[23-Mar-2021 22:30:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosReportes/reportes-seguimientos.php on line 26
+[24-Mar-2021 01:43:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosReportes/reportes-generales.php on line 27
+[25-Mar-2021 06:55:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Empresa/Modelos/ModelosReportes/reportes-generales.php on line 27

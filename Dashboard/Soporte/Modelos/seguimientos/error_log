@@ -1,0 +1,1 @@
+[23-Mar-2021 22:44:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/Dashboard/Soporte/Modelos/seguimientos/mostrar-seguimientos.php on line 10

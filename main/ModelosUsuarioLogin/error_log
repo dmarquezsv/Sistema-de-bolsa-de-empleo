@@ -1,0 +1,110 @@
+[19-Sep-2020 08:09:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:09:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mundoemp/public_html/BD/Consultas.php:63
+Stack trace:
+#0 /home/mundoemp/public_html/main/ModelosUsuarioLogin/ValidarUsuarioLogin.php(12): Consultas->ejecutar_consulta_simple_Where('SELECT `IDUsuar...', 'daniel.marquez@...')
+#1 {main}
+  thrown in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:10:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mundoemp/public_html/BD/Consultas.php:63
+Stack trace:
+#0 /home/mundoemp/public_html/main/ModelosUsuarioLogin/ValidarUsuarioLogin.php(12): Consultas->ejecutar_consulta_simple_Where('SELECT `IDUsuar...', 'daniel.marquez@...')
+#1 {main}
+  thrown in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:13:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:14:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:16:15 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:19:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:21:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:22:10 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 08:22:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 16:23:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[19-Sep-2020 18:19:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 63
+[16-Feb-2021 20:32:41 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 21:01:12 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 21:01:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 21:41:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 21:41:36 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 21:47:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 22:04:00 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 22:17:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[16-Feb-2021 22:24:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:03:04 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:06:38 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:07:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:09:46 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:21:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:22:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:24:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:29:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:45:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:47:09 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:54:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:55:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 18:56:32 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:13:20 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:21:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:21:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:22:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:23:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:35:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:38:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:51:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 19:59:25 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 20:02:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 20:27:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 20:40:33 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 21:07:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 21:11:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 21:11:24 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[17-Feb-2021 21:12:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:27:14 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mundoemp/public_html/BD/Consultas.php:61
+Stack trace:
+#0 /home/mundoemp/public_html/main/ModelosUsuarioLogin/ValidarUsuarioEmpresa.php(17): Consultas->ejecutar_consulta_simple_Where('SELECT `IDUsuar...', 'daniel.marquez@...')
+#1 {main}
+  thrown in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:28:32 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:28:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mundoemp/public_html/BD/Consultas.php:61
+Stack trace:
+#0 /home/mundoemp/public_html/main/ModelosUsuarioLogin/ValidarUsuarioEmpresa.php(17): Consultas->ejecutar_consulta_simple_Where('SELECT `IDUsuar...', 'daniel.marquez@...')
+#1 {main}
+  thrown in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:28:52 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:28:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/mundoemp/public_html/BD/Consultas.php:61
+Stack trace:
+#0 /home/mundoemp/public_html/main/ModelosUsuarioLogin/ValidarUsuarioEmpresa.php(17): Consultas->ejecutar_consulta_simple_Where('SELECT `IDUsuar...', 'daniel.marquez@...')
+#1 {main}
+  thrown in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:30:23 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 20:42:44 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:05:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:17:45 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:28:09 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:28:47 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:32:06 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:46:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:56:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 21:56:48 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:08:02 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:47:51 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:48:50 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:53:08 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:53:34 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[23-Mar-2021 22:54:03 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 00:12:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 00:47:53 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 01:04:54 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 01:05:42 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 01:36:31 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 01:38:17 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 01:43:05 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 16:54:28 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 17:40:18 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 18:22:35 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 18:22:49 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 18:23:16 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[24-Mar-2021 18:56:29 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[25-Mar-2021 05:29:04 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[25-Mar-2021 05:33:27 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[25-Mar-2021 05:35:58 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
+[25-Mar-2021 06:55:43 UTC] PHP Deprecated:  Non-static method Conexion::conectar() should not be called statically in /home/mundoemp/public_html/BD/Consultas.php on line 61
