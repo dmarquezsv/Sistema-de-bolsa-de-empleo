@@ -8,7 +8,7 @@ const SGBD = "mysql:host=".Servidor.";dbname=".BaseDeDatos .";charset=UTF8";
 
 class Conexion 
 {
-	public function conectar(){
+	public static function conectar(){
 		try {
 			
 			$con = new PDO(SGBD,Usuario,Pass);
