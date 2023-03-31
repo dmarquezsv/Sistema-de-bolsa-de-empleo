@@ -88,7 +88,7 @@
 				<div class="col-12">
 					<div class="copyright-content">
 						<!-- Copyright Text -->
-						<p>© Copyright <a href="./">Mundo Empleo Centroamérica</a>. <?php echo date('Y') ?></p>
+						<p>© Copyright <a href="./">Web Maker El Salvador</a>. <?php echo date('Y') ?></p>
 					</div>
 				</div>
 			</div>

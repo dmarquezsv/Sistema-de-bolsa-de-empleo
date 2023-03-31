@@ -102,7 +102,7 @@
 
         <div class="block-content">
             <hr>
-            <p class="text-white">© <?php echo date("Y"); ?> MundoEmpleo.com Todos los Derechos Reservados </p>
+            <p class="text-white">© <?php echo date("Y"); ?> Web Maker El Salvador Todos los Derechos Reservados </p>
 
         </div>
 

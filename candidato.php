@@ -76,29 +76,9 @@ $stmt2 = $Conexion->ejecutar_consulta_simple($sql2);
 </style>
 
 <!-- Hero Slider -->
-<!--Comienzo del contenido web -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	<ol class="carousel-indicators">
-		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		
-	</ol>
-	
-	<div class="carousel-inner">
-
-		<div class="carousel-item active">
-			<picture>
-				<source srcset="img/slider/escritorio/1.png" media="(min-width: 1400px)">
-					<source srcset="img/slider/laptos/1.png" media="(min-width: 769px)">
-						<source srcset="img/slider/tabletas/1.jpg" media="(min-width: 577px)">
-							<img srcset="img/slider/celulares/1.jpg" alt="responsive image" class="d-block img-fluid">
-						</picture>
-					</div>
-
-
-							</div>
-							
-
-						</div>
+<center>
+<img src="img/slider/escritorio/1.png" alt="" style="width 100%; height:100% ">
+</center>
 
 						<!-- Latest Blog -->
 						<section class="latest-blog">

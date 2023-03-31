@@ -125,7 +125,7 @@
 	}
 
 	.topbar {
-		background-color: #0B3486;
+		background-color: #000000;
 	}
 
 	#iconosAmarrillo{

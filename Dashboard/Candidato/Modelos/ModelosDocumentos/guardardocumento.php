@@ -30,7 +30,7 @@ if(isset($_POST["Guardar"])){
 
 		$_SESSION['alertas'] = "Advertenicia";
 		$_SESSION['ms'] = "Existe un archivo con ese mismo nombre " .$NombreArchivo." intente con otro";
-		header('Location: ../../documentos');
+		#header('Location: ../../documentos');
 	}else{
 
 		if(!file_exists($destino)){
@@ -51,17 +51,17 @@ if(isset($_POST["Guardar"])){
 					$_SESSION['alertas'] = "Mensaje";
 					$_SESSION['ms'] = "Se ha agregado el documento";
 
-					header('Location: ../../documentos');	
+					#header('Location: ../../documentos');	
 				
 				
 			}else{
 				$_SESSION['alertas'] = "Fallo";
-				header('Location: ../../documentos');
+				#header('Location: ../../documentos');
 			}
 		}else
 		{
 			$_SESSION['alertas'] = "Fallo";
-			header('Location: ../../documentos');	
+			#header('Location: ../../documentos');	
 		}
 	}
 	

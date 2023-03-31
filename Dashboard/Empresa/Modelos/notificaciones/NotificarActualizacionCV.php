@@ -1,4 +1,4 @@
-<?php  
+<?php
 
 include_once '../../../../BD/Conexion.php';
 include_once '../../../../BD/Consultas.php';
@@ -19,38 +19,37 @@ $IDSolicitud = $FuncionesApp->test_input($_POST['IDSolicitud']);
 $Email = $FuncionesApp->test_input($_POST['email']);
 
 
-$sql ="INSERT INTO `notificaciones` (`IDUsuario`, `Tipo`, `idSolicitud`,`Descripcion`) VALUES (:IDUsuario, 'Actualizar CV', :idSolicitud, 'Una empresa ha solicitado que actualice tu perfil.')";
+$sql = "INSERT INTO `notificaciones` (`IDUsuario`, `Tipo`, `idSolicitud`,`Descripcion`) VALUES (:IDUsuario, 'Actualizar CV', :idSolicitud, 'Una empresa ha solicitado que actualice tu perfil.')";
 
-$stmt =  Conexion::conectar()->prepare($sql);
-$stmt->bindParam('IDUsuario', $IDUser , PDO::PARAM_STR);
-$stmt->bindParam('idSolicitud', $IDSolicitud , PDO::PARAM_STR);
+$stmt = Conexion::conectar()->prepare($sql);
+$stmt->bindParam('IDUsuario', $IDUser, PDO::PARAM_STR);
+$stmt->bindParam('idSolicitud', $IDSolicitud, PDO::PARAM_STR);
 
-if ($stmt->execute()){
+if ($stmt->execute()) {
 
 
   $mail = new PHPMailer(true);
 
   try {
-          //Server settings
-           $mail->SMTPDebug = 0;                      // Enable verbose debug output
-			    $mail->isSMTP();                                            // Send using SMTP
-			    $mail->Host       = 'mail.mundoempleosca.com ';                    // Set the SMTP server to send through
-			    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			    $mail->Username   = 'danielm@mundoempleosca.com';                     // SMTP username
-			    $mail->Password   = 'pruebas001@';                               // SMTP password
-			    $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-			    $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    //Server settings
+    $mail->SMTPDebug = 0; // Enable verbose debug output
+    $mail->isSMTP(); // Send using SMTP
+    $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
+    $mail->SMTPAuth = true; // Enable SMTP authentication
+    $mail->Username = 'kayal.autosinnovadores@gmail.com'; // SMTP username
+    $mail->Password = 'khefzcriahqnbfxz'; // SMTP password
+    $mail->SMTPSecure = 'tls'; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+    $mail->Port = 587; // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+
+    //Recipients
+    $mail->setFrom('daniel.marquez@webmakersv.com', 'Equipo de Mundo Empleo CA');
+    $mail->addAddress($Email); // Add a recipient
 
 
-			    //Recipients
-			    $mail->setFrom('danielm@mundoempleosca.com', 'Equipo de Mundo Empleo CA');
-          $mail->addAddress($Email);     // Add a recipient
-          
-
-          // Content
-          $mail->isHTML(true);                                  // Set email format to HTML
-          $mail->Subject = 'Actualiza tu perfil | Mundo Empleo CA';
-          $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    // Content
+    $mail->isHTML(true); // Set email format to HTML
+    $mail->Subject = 'Actualiza tu perfil | Mundo Empleo CA';
+    $mail->Body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
           <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
           <head>
           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -164,20 +163,20 @@ if ($stmt->execute()){
           </body>
           </html>
           ';
-          //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-          $mail->CharSet = 'UTF-8'; // Con esto ya funcionan los acentos
+    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->CharSet = 'UTF-8'; // Con esto ya funcionan los acentos
 
-          $mail->send();
-        } catch (Exception $e) {
-          echo "Hubo un error para enivar correo: {$mail->ErrorInfo}";
-        }
+    $mail->send();
+  } catch (Exception $e) {
+    echo "Hubo un error para enivar correo: {$mail->ErrorInfo}";
+  }
 
 
-        echo "1";
+  echo "1";
 
-      }else{
+} else {
 
-       echo "0";
-     }
+  echo "0";
+}
 
-     ?>
+?>

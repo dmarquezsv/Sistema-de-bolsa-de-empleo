@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include_once '../../../../BD/Conexion.php';
 include_once '../../../../BD/Consultas.php';
@@ -7,9 +7,9 @@ include_once '../../../../main/funcionesApp.php';
 session_start();
 
 
-$IDUser  = $_SESSION['iduser'];     
-$NombresUser  = $_SESSION['nombre'];     
-$ApellidosUser  = $_SESSION['apellido'];
+$IDUser = $_SESSION['iduser'];
+$NombresUser = $_SESSION['nombre'];
+$ApellidosUser = $_SESSION['apellido'];
 $PrimerNombre = explode(" ", $NombresUser);
 $PrimerApellido = explode(" ", $ApellidosUser);
 
@@ -27,51 +27,49 @@ $FuncionesApp = new funcionesApp();
 $IDUserReclutador = $FuncionesApp->test_input($_GET['userReclutador']);
 $IDNotifiación = $FuncionesApp->test_input($_GET['idnotificacion']);
 
-$sql ="SELECT `Correo` FROM `usuarios_cuentas` WHERE IDUsuario = ?";
-$stmt =  Conexion::conectar()->prepare($sql);
+$sql = "SELECT `Correo` FROM `usuarios_cuentas` WHERE IDUsuario = ?";
+$stmt = Conexion::conectar()->prepare($sql);
 $stmt->execute(array($IDUserReclutador));
-$emailReclutador ="";
-while ($item=$stmt->fetch())
-{
-	$emailReclutador = $item['Correo'];
+$emailReclutador = "";
+while ($item = $stmt->fetch()) {
+  $emailReclutador = $item['Correo'];
 }
 
 
-$sql3="DELETE FROM `notificaciones` WHERE `IDNotificacion` = ? ";
-$stmt3 =  Conexion::conectar()->prepare($sql3);
+$sql3 = "DELETE FROM `notificaciones` WHERE `IDNotificacion` = ? ";
+$stmt3 = Conexion::conectar()->prepare($sql3);
 $stmt3->execute(array($IDNotifiación));
 
 
 
-$sql2 ="INSERT INTO `notificaciones` (`IDUsuario`, `Tipo`, `idSolicitud`,`Descripcion`) VALUES (:IDUsuario, 'Perfil-Actualizado', :idSolicitud, 'Un candidato ha actualizado el perfil profesional.')";
-$stmt2 =  Conexion::conectar()->prepare($sql2);
-$stmt2->bindParam('IDUsuario', $IDUserReclutador , PDO::PARAM_STR);
-$stmt2->bindParam('idSolicitud', $IDUser , PDO::PARAM_STR);
-if ($stmt2->execute()){
+$sql2 = "INSERT INTO `notificaciones` (`IDUsuario`, `Tipo`, `idSolicitud`,`Descripcion`) VALUES (:IDUsuario, 'Perfil-Actualizado', :idSolicitud, 'Un candidato ha actualizado el perfil profesional.')";
+$stmt2 = Conexion::conectar()->prepare($sql2);
+$stmt2->bindParam('IDUsuario', $IDUserReclutador, PDO::PARAM_STR);
+$stmt2->bindParam('idSolicitud', $IDUser, PDO::PARAM_STR);
+if ($stmt2->execute()) {
 
-	$mail = new PHPMailer(true);
+  $mail = new PHPMailer(true);
 
-	try {
-          //Server settings
-           $mail->SMTPDebug = 0;                      // Enable verbose debug output
-			    $mail->isSMTP();                                            // Send using SMTP
-			    $mail->Host       = 'mail.mundoempleosca.com ';                    // Set the SMTP server to send through
-			    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			    $mail->Username   = 'danielm@mundoempleosca.com';                     // SMTP username
-			    $mail->Password   = 'pruebas001@';                               // SMTP password
-			    $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-			    $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+  try {
+    //Server settings
+    $mail->SMTPDebug = 0; // Enable verbose debug output
+    $mail->isSMTP(); // Send using SMTP
+    $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
+    $mail->SMTPAuth = true; // Enable SMTP authentication
+    $mail->Username = 'kayal.autosinnovadores@gmail.com'; // SMTP username
+    $mail->Password = 'khefzcriahqnbfxz'; // SMTP password
+    $mail->SMTPSecure = 'tls'; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
+    $mail->Port = 587; // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+
+    //Recipients
+    $mail->setFrom('daniel.marquez@webmakersv.com', 'Equipo de Mundo Empleo CA');
+    $mail->addAddress($emailReclutador); // Add a recipient
 
 
-			    //Recipients
-			    $mail->setFrom('danielm@mundoempleosca.com', 'Equipo de Mundo Empleo CA');
-          $mail->addAddress($emailReclutador);     // Add a recipient
-          
-
-          // Content
-          $mail->isHTML(true);                                  // Set email format to HTML
-          $mail->Subject = 'El Usuario '.$PrimerNombre[0].' '.$PrimerApellido[0].'  ha actualizado el perfil | Mundo Empleo CA';
-          $mail->Body    = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    // Content
+    $mail->isHTML(true); // Set email format to HTML
+    $mail->Subject = 'El Usuario ' . $PrimerNombre[0] . ' ' . $PrimerApellido[0] . '  ha actualizado el perfil | Mundo Empleo CA';
+    $mail->Body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
           <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
           <head>
           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -114,7 +112,7 @@ if ($stmt2->execute()){
           <br>
           
           <center>
-          <a href="https://mundoempleosca.com/login-empresa?id='.base64_encode($IDUser).'&direccionar=cv" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">iniciar sesión </a>
+          <a href="https://mundoempleosca.com/login-empresa?id=' . base64_encode($IDUser) . '&direccionar=cv" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">iniciar sesión </a>
           </center>
 
           <br><br>
@@ -185,19 +183,19 @@ if ($stmt2->execute()){
           </body>
           </html>
           ';
-          //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-          $mail->CharSet = 'UTF-8'; // Con esto ya funcionan los acentos
+    //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->CharSet = 'UTF-8'; // Con esto ya funcionan los acentos
 
-          $mail->send();
-     } catch (Exception $e) {
-        echo "Hubo un error para enivar correo: {$mail->ErrorInfo}";
-   }
+    $mail->send();
+  } catch (Exception $e) {
+    echo "Hubo un error para enivar correo: {$mail->ErrorInfo}";
+  }
 
-   $_SESSION['alertas'] = "Mensaje";
-   $_SESSION['ms'] = "Se ha notificado al usuario";
-   header('Location: ../../inbox');
+  $_SESSION['alertas'] = "Mensaje";
+  $_SESSION['ms'] = "Se ha notificado al usuario";
+  header('Location: ../../inbox');
 
-}else{
+} else {
 
   $_SESSION['alertas'] = "PerdidaDatos";
   header('Location: ../../inbox');

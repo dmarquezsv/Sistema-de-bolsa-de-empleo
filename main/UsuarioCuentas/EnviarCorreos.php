@@ -11,7 +11,7 @@ require 'phpmailer/SMTP.php';
 class EnviarCorreos 
 {
 	
-	public function EnviarVerfificacion($Nombre, $emial , $Token){
+	static public function EnviarVerfificacion($Nombre, $emial , $Token){
 
 		
 
@@ -20,16 +20,16 @@ class EnviarCorreos
 			    $mail = new PHPMailer(true);
 			    $mail->SMTPDebug = 0;                      // Enable verbose debug output
 			    $mail->isSMTP();                                            // Send using SMTP
-			    $mail->Host       = 'mail.mundoempleosca.com';                    // Set the SMTP server to send through
+			    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
 			    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			    $mail->Username   = 'danielm@mundoempleosca.com';                     // SMTP username
-			    $mail->Password   = 'pruebas001@';                               // SMTP password
+			    $mail->Username   = 'kayal.autosinnovadores@gmail.com';                     // SMTP username
+			    $mail->Password   = 'khefzcriahqnbfxz';                               // SMTP password
 			    $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 			    $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
 
 			    //Recipients
-			    $mail->setFrom('danielm@mundoempleosca.com', 'Equipo de Mundo Empleo CA');
+			    $mail->setFrom('daniel.marquez@webmakersv.com', 'Equipo de Mundo Empleo CA');
 			    $mail->addAddress($emial);     // Add a recipient
 
 
@@ -77,7 +77,7 @@ class EnviarCorreos
 			    <center>
 
 
-			    <a href="https://mundoempleosca.com/main/UsuarioCuentas/ValidarUsuarioCandidato.php?keys='.$Token.'&email='.base64_encode($emial).'"  target="_blank"  style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">Activar Cuenta</a>
+			    <a href="https://localhost/Sistema-de-bolsa-de-empleo/main/UsuarioCuentas/ValidarUsuarioCandidato.php?keys='.$Token.'&email='.base64_encode($emial).'"  target="_blank"  style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">Activar Cuenta</a>
 			    </center>
 
 			    <br><br>
@@ -157,7 +157,7 @@ class EnviarCorreos
 		}
 
 
-		public function EnviarVerfificacion2($Nombre, $emial , $Token){
+		static public function EnviarVerfificacion2($Nombre, $emial , $Token){
 
 
 
@@ -166,10 +166,10 @@ class EnviarCorreos
 				$mail = new PHPMailer(true);
 			    $mail->SMTPDebug = 0;                      // Enable verbose debug output
 			    $mail->isSMTP();                                            // Send using SMTP
-			    $mail->Host       = 'mail.mundoempleosca.com ';                    // Set the SMTP server to send through
+			    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
 			    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-			    $mail->Username   = 'danielm@mundoempleosca.com';                     // SMTP username
-			    $mail->Password   = 'pruebas001@';                               // SMTP password
+			    $mail->Username   = 'kayal.autosinnovadores@gmail.com';                     // SMTP username
+			    $mail->Password   = 'khefzcriahqnbfxz';                               // SMTP password
 			    $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 			    $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -221,7 +221,7 @@ class EnviarCorreos
 			    <br><br>
 
 			    <center>
-			    <a href="https://mundoempleosca.com/main/UsuarioCuentas/ValidarUsuarioEmpresa.php?keys='.$Token.'&email='.base64_encode($emial).'"  target="_blank"  style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">Activar Cuenta</a>
+			    <a href="https://localhost/Sistema-de-bolsa-de-empleo/main/UsuarioCuentas/ValidarUsuarioEmpresa.php?keys='.$Token.'&email='.base64_encode($emial).'"  target="_blank"  style="display:inline-block; min-width:250px; font-family:Tahoma,Arial,sans-serif; font-size:18px; font-weight:bold; color:#0B3486; line-height:50px; text-align:center; text-decoration:none; background-color:#FCC201; border-radius:50px; padding:16px 24px; line-height:1">Activar Cuenta</a>
 			    </center>
 
 			    <br><br>

@@ -401,9 +401,9 @@ class Dompdf
      * @param null $encoding
      * @deprecated
      */
-    public function load_html($str, $encoding = 'UTF-8')
+    static public function load_html($str, $encoding = 'UTF-8') : string
     {
-        $this->loadHtml($str, $encoding);
+         $this->loadHtml($str, $encoding);
     }
 
     /**

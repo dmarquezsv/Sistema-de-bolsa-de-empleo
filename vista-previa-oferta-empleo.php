@@ -244,7 +244,7 @@ while ($item=$stmt->fetch())
  						</div>
  						<div class="job-tittle">
  							<a href="#">
- 								<h4><?php echo $item['Plaza'] ?> </h4>
+ 								<h4><?php echo $Plaza ?> </h4>
  							</a>
  							<ul>
  								<?php if ($Confidencial != "Si") {?>

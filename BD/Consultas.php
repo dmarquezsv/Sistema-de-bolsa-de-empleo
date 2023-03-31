@@ -6,7 +6,7 @@
 	{
 
 
-		public function ejecutar_consulta_conteo($tabla , $campo , $condicion)
+		static public function ejecutar_consulta_conteo($tabla , $campo , $condicion)
 		{
 
 			try {
@@ -32,7 +32,7 @@
 		
 
 
-		public function ejecutar_consulta_simple($sql)
+	  static public function ejecutar_consulta_simple($sql)
 		{
 
 			try {
@@ -53,7 +53,7 @@
 
 
 
-		public function ejecutar_consulta_simple_Where($consulta, $condicion)
+	  static public function ejecutar_consulta_simple_Where($consulta, $condicion)
 		{
 
 			try {
@@ -75,12 +75,12 @@
     
 
 //Funcion para eliminar complejo los datos 
-		public function ejecutar_consulta_eliminar_Complejo($tabla,$campo1 ,$Condicion1 , $Campo2 , $Condicion2)
+static  public function ejecutar_consulta_eliminar_Complejo($tabla,$campo1 ,$Condicion1 , $Campo2 , $Condicion2)
 		{
 
 			try {
 
-				$sql = "DELETE FROM $tabla WHERE $campo1 = ? AND  $campo2 = ?";
+				$sql = "DELETE FROM $tabla WHERE $campo1 = ? AND  $Campo2 = ?";
 				$respuesta = Conexion::conectar()->prepare($sql);
 				if(!$respuesta-> execute(array($Condicion1 ,$Condicion2))){
 					
@@ -96,7 +96,7 @@
 	  //Fin de la funcion consulta
 
 
-		public function ejecutar_consulta_eliminar($tabla,$campo1 ,$Condicion1)
+	  static public function ejecutar_consulta_eliminar($tabla,$campo1 ,$Condicion1)
 		{
 
 			try {
