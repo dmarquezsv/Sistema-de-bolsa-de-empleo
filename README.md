@@ -8,7 +8,7 @@ La plataforma ofrece numerosas opciones para las empresas, como subir el logo de
 <b>Es importante destacar que la plataforma aún no está terminada y requiere mantenimiento en ciertos módulos.</b>
 
 ### Dependencias/Requisitos previos
-Para instalar el sistema, es necesario contar con PHP 7, y se puede utilizar XAMPP para ello.
+Para instalar el sistema, es necesario contar con PHP 8, y se puede utilizar XAMPP para ello.
 
 ## Instalación / Primeros pasos
 1 - Abrir la terminal de Git Bash y clonar el repositorio con el siguiente comando:
